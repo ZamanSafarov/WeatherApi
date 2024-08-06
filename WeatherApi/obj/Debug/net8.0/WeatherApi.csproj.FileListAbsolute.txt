@@ -136,3 +136,4 @@ D:\Coding\CrocusoftLearning\WeatherApi\WeatherApi\obj\Debug\net8.0\WeatherApi.pd
 D:\Coding\CrocusoftLearning\WeatherApi\WeatherApi\obj\Debug\net8.0\WeatherApi.genruntimeconfig.cache
 D:\Coding\CrocusoftLearning\WeatherApi\WeatherApi\obj\Debug\net8.0\ref\WeatherApi.dll
 D:\Coding\CrocusoftLearning\WeatherApi\WeatherApi\bin\Debug\net8.0\Newtonsoft.Json.dll
+D:\Coding\CrocusoftLearning\WeatherApi\WeatherApi\obj\Debug\net8.0\WeatherApi.sourcelink.json

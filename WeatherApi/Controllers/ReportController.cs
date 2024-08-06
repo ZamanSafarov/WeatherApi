@@ -30,9 +30,9 @@ namespace WeatherApi.Controllers
 			return Ok(_reportService.FilterReport(pagination,filter));
 		}
 		[HttpPost]
-		public IActionResult WeatherCheck([FromBody] District model)
+		public async Task<IActionResult> WeatherCheck([FromBody] District model)
 		{
-			var weather = _weatherService.GetWeather(model.Latitude, model.Longitude);
+			var weather = await _weatherService.GetWeather(model.Latitude, model.Longitude);
 
 			_reportService.AddRep(weather, model.Id);
 
