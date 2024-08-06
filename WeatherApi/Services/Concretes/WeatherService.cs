@@ -14,7 +14,7 @@ namespace WeatherApi.Services.Concretes
 			_httpClient.BaseAddress = new Uri("https://api.openweathermap.org/data/2.5/");
 			_configuration = configuration;
 		}
-		public Report GetWeather(double latitude, double longitude)
+		public async Task<Report> GetWeather(double latitude, double longitude)
 		{
 			var apiKey = _configuration["OpenWeatherMap:ApiKey"];
 			var unit = _configuration["OpenWeatherMap:Units"];

@@ -28,7 +28,7 @@ namespace WeatherApi.Business
 
                         foreach (var district in districts)
                         {
-                            var weather = weatherService.GetWeather(district.Latitude, district.Longitude);
+                            var weather = await weatherService.GetWeather(district.Latitude, district.Longitude);
                             repService.AddRep(weather, district.Id);
                         }
                     }
